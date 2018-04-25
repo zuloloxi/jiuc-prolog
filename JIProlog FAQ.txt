@@ -29,14 +29,16 @@ Q. How to solve invalid stream header ?
      at com.ugos.jiprolog.gui.JIPConsole.<init>(JIPConsole.java:127)        
      at com.ugos.jiprolog.gui.JIPConsole.main(JIPConsole.java:66)
 
-A.To compile the sources .pl, .pro or txt, must start in debug mode, this load the source kernel jipkernel.txt, using -debug option in command line
-  ### Steps in ide a.  
-  java -jar /folder_target/jiprolog-4.1.jar -debug 
-  b.  File->Open->compile.pl <CR>
-  c.  File->Consult <CR>   
-  d.  Type the query: compile. <CR> in console.  
+A.To compile the sources .pl, .pro or txt, must start in debug mode, this load the source kernel jipkernel.txt, using -debug option
+in command line
+  ### Steps in ide:
+  a)  java -jar /folder_target/jiprolog-4.1.jar -debug 
+  b)  File->Open->compile.pl <CR> 
+  c)  File->Consult <CR>   
+  d)  Type the query: compile. <CR> in console.  
   
-  %%% compile.pl file start : 
+  %%% with maven use this compile.pl 
+  %%% compile file start %%%
   compile:-    
   write('sources .pl or .txt for compile are in /src/main/resources/com/ugos/jiprolog/resources folder'),nl, write('compilation start'),
   nl, 
@@ -55,7 +57,7 @@ A.To compile the sources .pl, .pro or txt, must start in debug mode, this load t
   compile('src/main/resources/com/ugos/jiprolog/resources/xxml.pl'), 
   write('compilation done'), nl.
 %:- compile.
-%%% compile.pl file end.
+%%% compile.pl file end. %%%
 
 Q. Compile (build) java sources using maven 3.2.X ?
 
