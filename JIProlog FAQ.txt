@@ -68,5 +68,5 @@ A. Steps
           d) Verify in PATH env variable if have $JAVA_HOME/bin and $M2_HOME/bin, for windows %JAVA_HOME%\bin and  %M2_HOME%\bin
           c) mvn clean install
 
-Q. Running application (with sources compiled)
+Q. Running application (with above .pl, .txt sources compiled)
 A.      java -jar jiprolog-X.1.jar 
