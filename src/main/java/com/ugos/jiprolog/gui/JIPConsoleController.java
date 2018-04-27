@@ -48,10 +48,11 @@ import com.ugos.jiprolog.igui.IJIPConsoleView;
 
 public class JIPConsoleController implements IJIPConsoleController, JIPEventListener, JIPTraceListener
 {
-    public static final String TITLE   = "JIProlog - Java Internet Prolog";
+    //public static final String TITLE   = "JIProlog - Java Internet Prolog";
+	public static final String TITLE   = "JI Prolog "+ JIPEngine.getVersion();
     public static final String VERSION = JIPEngine.getVersion();
-    public static final String PROMPT  = "| ?-";
-
+    public static final String PROMPT  = "| ?- "; //"JI?- "
+	
     private Frame m_mainFrame;
 
     // Prolog Engine
@@ -277,6 +278,7 @@ public class JIPConsoleController implements IJIPConsoleController, JIPEventList
     public void onQuery(String strQuery)
     {
 //    	System.out.println("query handle " + m_nQueryHandle);
+    	System.out.println("query handle " + m_nQueryHandle);
 
         if(m_nQueryHandle != -1 && m_prolog.hasMoreChoicePoints(m_nQueryHandle))
         {
@@ -301,13 +303,15 @@ public class JIPConsoleController implements IJIPConsoleController, JIPEventList
             }
             else
             {
-                m_prolog.closeQuery(m_nQueryHandle);
+            	m_outs.println("Yes");
+            	m_prolog.closeQuery(m_nQueryHandle);
                 m_consoleView.waitCursor(false);
             }
         }
         else
         {
             //System.out.println("strQuery " + strQuery);
+        	System.out.println("strQuery " + strQuery);
         	strQuery = strQuery.trim();
 
             if(strQuery.equals(""))
@@ -439,16 +443,20 @@ public class JIPConsoleController implements IJIPConsoleController, JIPEventList
             if(m_nQueryHandle == e.getQueryHandle())
             {
                 // Show Solution
-                m_outs.println("Yes");
-
+                //m_outs.println("Yes");
+                boolean lm=false; //local more
                 JIPTerm term = e.getTerm();
                 JIPVariable[] vars = term.getVariables();
 
                 for(int i = 0; i < vars.length; i++)
                 {
                     if(!vars[i].isAnonymous())
-                    {
-                        m_outs.println(vars[i].getName() + " = " + vars[i].toStringq(m_prolog));
+                    {   
+                    	if (i!=0) {
+                    	m_outs.println();
+                    	} 
+                    	m_outs.print(vars[i].getName() + " = " + vars[i].toStringq(m_prolog));
+                    	lm=true;
                     }
                 }
 
@@ -460,15 +468,24 @@ public class JIPConsoleController implements IJIPConsoleController, JIPEventList
                 }
                 else
                 {
-                    m_outs.print("more? ");
-                    m_outs.flush();
-
-                    m_consoleView.recordHistory(false);
-
-                    // Stop
-                    m_consoleView.enableStop(false);
-
-                    m_consoleView.updatePrompt();
+ //                   m_outs.print("more? ");
+                	if(!lm) 
+                	{
+                		m_outs.println("Yes");
+                		m_prolog.closeQuery(e.getQueryHandle());
+                	}
+                	else
+                	{
+	              		m_outs.print(" ? ");
+	               		m_outs.flush();
+	
+	               		m_consoleView.recordHistory(false);
+	
+	                    // Stop
+	                    m_consoleView.enableStop(false);
+	
+	                    m_consoleView.updatePrompt();
+                	}
                 }
 
                 m_consoleView.editable(true);
