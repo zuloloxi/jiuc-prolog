@@ -1,0 +1,2527 @@
+rem compile 4.1.7.6
+D:\jiuc-prolog>mvn compile
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for com.ugos:jiprolog:jar:1.0
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.
+plugins:maven-surefire-plugin @ com.ugos:jiprolog:[unknown-version], D:\jiuc-prolog\pom.xml, line 38, column 15
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Ji Prolog 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jiprolog ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 18 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jiprolog ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 276 source files to D:\jiuc-prolog\target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING :
+[INFO] -------------------------------------------------------------
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/JIPConsoleView.java: Some input files use or override a deprecated API.
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/JIPConsoleView.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/extensions/reflect/JIPxReflect.java: Some input files use unchecked or unsaf
+e operations.
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/extensions/reflect/JIPxReflect.java: Recompile with -Xlint:unchecked for det
+ails.
+[WARNING] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] 5 warnings
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR :
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/JIPConsoleController.java:[124,65] incompatible types: java.io.InputStream
+ cannot be converted to java.io.Reader
+[ERROR] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[465,36] incompatible types: java.io.ByteArrayInputStream c
+annot be converted to java.io.Reader
+[INFO] 2 errors
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.851 s
+[INFO] Finished at: 2025-09-15T18:34:13+02:00
+[INFO] Final Memory: 15M/474M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project jiprolog: Compilation fail
+ure: Compilation failure:
+[ERROR] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/JIPConsoleController.java:[124,65] incompatible types: java.io.InputStream
+ cannot be converted to java.io.Reader
+[ERROR] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[465,36] incompatible types: java.io.ByteArrayInputStream c
+annot be converted to java.io.Reader
+[ERROR] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+D:\jiuc-prolog>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Ji Prolog 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jiprolog ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 18 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jiprolog ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 276 source files to D:\jiuc-prolog\target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING :
+[INFO] -------------------------------------------------------------
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/JIPConsoleView.java: Some input files use or override a deprecated API.
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/JIPConsoleView.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/extensions/reflect/JIPxReflect.java: Some input files use unchecked or unsaf
+e operations.
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/extensions/reflect/JIPxReflect.java: Recompile with -Xlint:unchecked for det
+ails.
+[WARNING] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] 5 warnings
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR :
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/JIPConsoleController.java:[124,65] incompatible types: java.io.InputStream
+ cannot be converted to java.io.Reader
+[ERROR] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[465,36] incompatible types: java.io.ByteArrayInputStream c
+annot be converted to java.io.Reader
+[INFO] 2 errors
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.148 s
+[INFO] Finished at: 2025-09-15T18:54:46+02:00
+[INFO] Final Memory: 15M/516M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project jiprolog: Compilation fail
+ure: Compilation failure:
+[ERROR] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/JIPConsoleController.java:[124,65] incompatible types: java.io.InputStream
+ cannot be converted to java.io.Reader
+[ERROR] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[465,36] incompatible types: java.io.ByteArrayInputStream c
+annot be converted to java.io.Reader
+[ERROR] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+D:\jiuc-prolog>cd ..
+
+
+rem compile 4.1.6.1
+
+
+D:\jiucpro>mvn compile
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for com.ugos:jiprolog:jar:1.0
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.
+plugins:maven-surefire-plugin @ com.ugos:jiprolog:[unknown-version], D:\jiucpro\pom.xml, line 38, column 15
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Ji Prolog 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jiprolog ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 18 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jiprolog ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 276 source files to D:\jiucpro\target\classes
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/JIPTermParser.java: Some input files use or override a deprecated API.
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/JIPTermParser.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/JIPEngine.java: Some input files use unchecked or unsafe operations.
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/JIPEngine.java: Recompile with -Xlint:unchecked for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.259 s
+[INFO] Finished at: 2025-09-15T20:00:54+02:00
+[INFO] Final Memory: 16M/506M
+[INFO] ------------------------------------------------------------------------
+D:\jiucpro>mvn install
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for com.ugos:jiprolog:jar:1.0
+[WARNING] 'build.pluginManagement.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.
+plugins:maven-surefire-plugin @ com.ugos:jiprolog:[unknown-version], D:\jiucpro\pom.xml, line 38, column 15
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Ji Prolog 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jiprolog ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 18 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jiprolog ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jiprolog ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 6 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jiprolog ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to D:\jiucpro\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jiprolog ---
+[INFO] Surefire report directory: D:\jiucpro\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.ugos.jiprolog.example.AsynchronousQueryTest
+This is printed only once at the AsynchronousQueryTest beginning
+java.lang.NullPointerException
+        at java.io.ObjectInputStream$PeekInputStream.read(ObjectInputStream.java:2814)
+        at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2830)
+        at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3307)
+        at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:934)
+        at java.io.ObjectInputStream.<init>(ObjectInputStream.java:396)
+        at com.ugos.jiprolog.engine.GlobalDB.loadKernel(GlobalDB.java:717)
+        at com.ugos.jiprolog.engine.GlobalDB.<init>(GlobalDB.java:89)
+        at com.ugos.jiprolog.engine.JIPEngine.<init>(JIPEngine.java:131)
+        at com.ugos.jiprolog.example.AsynchronousQueryTest.start(AsynchronousQueryTest.java:80)
+        at com.ugos.jiprolog.example.AsynchronousQueryTest.main(AsynchronousQueryTest.java:74)
+        at com.ugos.jiprolog.example.AsynchronousQueryTest.test(AsynchronousQueryTest.java:56)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+        at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+        at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+        at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+        at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+        at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+        at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+        at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+        at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+        at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+        at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+        at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+        at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+        at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+        at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+        at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+        at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+com.ugos.jiprolog.engine.JIPRuntimeException: error(system_error('\'Unable to load Kernel: java.lang.NullPointerException\''),context(undefined,f
+ile(undefined,0)))
+        at com.ugos.jiprolog.engine.GlobalDB.loadKernel(GlobalDB.java:756)
+        at com.ugos.jiprolog.engine.GlobalDB.<init>(GlobalDB.java:89)
+        at com.ugos.jiprolog.engine.JIPEngine.<init>(JIPEngine.java:131)
+        at com.ugos.jiprolog.example.AsynchronousQueryTest.start(AsynchronousQueryTest.java:80)
+        at com.ugos.jiprolog.example.AsynchronousQueryTest.main(AsynchronousQueryTest.java:74)
+        at com.ugos.jiprolog.example.AsynchronousQueryTest.test(AsynchronousQueryTest.java:56)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+        at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+        at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+        at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+        at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+        at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+        at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+        at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+        at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+        at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+        at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+        at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+        at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+        at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+        at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+        at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+        at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+######### PROGRAM FINISHED ###############
+AsynchronousQueryTest - last thing printed
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.325 sec
+Running com.ugos.jiprolog.example.SynchronousQueryTest
+This is printed only once at the SynchronousQueryTest beginning
+java.lang.NullPointerException
+        at com.ugos.jiprolog.engine.JIPEngine.<init>(JIPEngine.java:138)
+        at com.ugos.jiprolog.example.SynchronousQueryTest.main(SynchronousQueryTest.java:65)
+        at com.ugos.jiprolog.example.SynchronousQueryTest.test(SynchronousQueryTest.java:53)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+        at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+        at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+        at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+        at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+        at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+        at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+        at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+        at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+        at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+        at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+        at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+        at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+        at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+        at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+        at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+        at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+######### PROGRAM FINISHED ###############
+SynchronousQueryTest - last thing printed
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.598 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ jiprolog ---
+[INFO] Building jar: D:\jiucpro\target\jiprolog-1.0.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ jiprolog ---
+[INFO] Installing D:\jiucpro\target\jiprolog-1.0.jar to C:\Users\gozuw10\.m2\repository\com\ugos\jiprolog\1.0\jiprolog-1.0.jar
+[INFO] Installing D:\jiucpro\pom.xml to C:\Users\gozuw10\.m2\repository\com\ugos\jiprolog\1.0\jiprolog-1.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.374 s
+[INFO] Finished at: 2025-09-15T20:02:36+02:00
+[INFO] Final Memory: 18M/570M
+[INFO] ------------------------------------------------------------------------
+D:\jiucpro>mvn install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Ji Prolog 1.0
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.pom (13 KB at 1
+4.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/33/maven-plugins-33.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/33/maven-plugins-33.pom (11 KB at 47.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar (61 KB at 1
+64.0 KB/sec)
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jiprolog ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 18 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ jiprolog ---
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.pom (7
+70 B at 3.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.7.1/plexus-containers-1.7.1.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.7.1/plexus-containers-1.7.1.pom (5 KB at 26.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.pom (6 KB at 37.2 KB/s
+ec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/30/maven-shared-components-30.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/30/maven-shared-components-30.pom (0 B at 0.0 KB
+/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/30/maven-parent-30.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/30/maven-parent-30.pom (0 B at 0.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.pom
+Downloaded: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.pom (0 B at 0.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.pom (5 KB at 18.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/0.9.10/plexus-languages-0.9.10.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/0.9.10/plexus-languages-0.9.10.pom (5 KB at 22.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.pom (3 KB at 15.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/ow2/ow2/1.5/ow2-1.5.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/ow2/ow2/1.5/ow2-1.5.pom (0 B at 0.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.pom
+Downloaded: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.pom (16 KB at 78.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.pom (867 B at 4.9 KB/sec
+)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.8.4/plexus-compiler-2.8.4.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.8.4/plexus-compiler-2.8.4.pom (6 KB at 29.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.pom (692 B at 3.
+6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.pom (771 B at 3.8 KB
+/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.8.4/plexus-compilers-2.8.4.pom
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.8.4/plexus-compilers-2.8.4.pom (2 KB at 7.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar
+Downloading: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.jar
+Downloading: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar
+Downloaded: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.jar (0 B at 0.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar (5
+ KB at 4.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar (39 KB at 38.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/6.2/asm-6.2.jar (109 KB at 98.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar (27 KB at 23.0 KB/se
+c)
+Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar (163 KB at 135.4 K
+B/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar (5 KB at 3.8
+ KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.jar (310 KB at 237.6 KB/sec)
+Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar (21 KB at 14.7 K
+B/sec)
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jiprolog ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 6 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ jiprolog ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jiprolog ---
+[INFO] Surefire report directory: D:\jiucpro\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.ugos.jiprolog.example.AsynchronousQueryTest
+This is printed only once at the AsynchronousQueryTest beginning
+java.lang.NullPointerException
+        at java.io.ObjectInputStream$PeekInputStream.read(ObjectInputStream.java:2814)
+        at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2830)
+        at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3307)
+        at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:934)
+        at java.io.ObjectInputStream.<init>(ObjectInputStream.java:396)
+        at com.ugos.jiprolog.engine.GlobalDB.loadKernel(GlobalDB.java:717)
+        at com.ugos.jiprolog.engine.GlobalDB.<init>(GlobalDB.java:89)
+        at com.ugos.jiprolog.engine.JIPEngine.<init>(JIPEngine.java:131)
+        at com.ugos.jiprolog.example.AsynchronousQueryTest.start(AsynchronousQueryTest.java:80)
+        at com.ugos.jiprolog.example.AsynchronousQueryTest.main(AsynchronousQueryTest.java:74)
+        at com.ugos.jiprolog.example.AsynchronousQueryTest.test(AsynchronousQueryTest.java:56)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+        at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+        at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+        at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+        at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+        at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+        at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+        at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+        at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+        at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+        at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+        at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+        at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+        at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+        at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+        at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+        at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+com.ugos.jiprolog.engine.JIPRuntimeException: error(system_error('\'Unable to load Kernel: java.lang.NullPointerException\''),context(undefined,f
+ile(undefined,0)))
+        at com.ugos.jiprolog.engine.GlobalDB.loadKernel(GlobalDB.java:756)
+        at com.ugos.jiprolog.engine.GlobalDB.<init>(GlobalDB.java:89)
+        at com.ugos.jiprolog.engine.JIPEngine.<init>(JIPEngine.java:131)
+        at com.ugos.jiprolog.example.AsynchronousQueryTest.start(AsynchronousQueryTest.java:80)
+        at com.ugos.jiprolog.example.AsynchronousQueryTest.main(AsynchronousQueryTest.java:74)
+        at com.ugos.jiprolog.example.AsynchronousQueryTest.test(AsynchronousQueryTest.java:56)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+        at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+        at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+        at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+        at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+        at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+        at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+        at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+        at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+        at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+        at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+        at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+        at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+        at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+        at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+        at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+        at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+######### PROGRAM FINISHED ###############
+AsynchronousQueryTest - last thing printed
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.177 sec
+Running com.ugos.jiprolog.example.SynchronousQueryTest
+This is printed only once at the SynchronousQueryTest beginning
+java.lang.NullPointerException
+        at com.ugos.jiprolog.engine.JIPEngine.<init>(JIPEngine.java:138)
+        at com.ugos.jiprolog.example.SynchronousQueryTest.main(SynchronousQueryTest.java:65)
+        at com.ugos.jiprolog.example.SynchronousQueryTest.test(SynchronousQueryTest.java:53)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+        at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+        at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+        at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+        at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+        at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+        at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+        at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+        at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+        at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+        at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+        at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+        at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+        at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+        at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+        at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+        at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+######### PROGRAM FINISHED ###############
+SynchronousQueryTest - last thing printed
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ jiprolog ---
+[INFO] Building jar: D:\jiucpro\target\jiprolog-1.0.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ jiprolog ---
+[INFO] Installing D:\jiucpro\target\jiprolog-1.0.jar to C:\Users\gozuw10\.m2\repository\com\ugos\jiprolog\1.0\jiprolog-1.0.jar
+[INFO] Installing D:\jiucpro\pom.xml to C:\Users\gozuw10\.m2\repository\com\ugos\jiprolog\1.0\jiprolog-1.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 12.436 s
+[INFO] Finished at: 2025-09-16T07:35:33+02:00
+[INFO] Final Memory: 15M/559M
+[INFO] ------------------------------------------------------------------------
+D:\jiucpro>mvn clean install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Ji Prolog 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jiprolog ---
+[INFO] Deleting D:\jiucpro\target
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jiprolog ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 18 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ jiprolog ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 276 source files to D:\jiucpro\target\classes
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/JIPEngine.java:[824,32] unchecked method invocation: method unify in clas
+s com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Clause,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/JIPEngine.java:[824,50] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/JIPEngine.java:[1140,31] unchecked method invocation: method unify in cla
+ss com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/JIPEngine.java:[1140,38] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/WAM.java:[413,64] unchecked method invocation: method unify in class com.
+ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/WAM.java:[413,83] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/PrologObject.java:[130,20] unchecked method invocation: method copy in cl
+ass com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: boolean,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.PrologObject>
+  found: boolean,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/PrologObject.java:[130,27] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.PrologObject>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/PrologObject.java:[192,42] unchecked call to addElement(E) as a member of
+ the raw type java.util.Vector
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/JIPTerm.java:[79,23] unchecked method invocation: method unify in class c
+om.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/JIPTerm.java:[79,36] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/JIPTerm.java:[86,28] unchecked call to put(K,V) as a member of the raw ty
+pe java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/JIPTerm.java:[235,24] unchecked call to put(K,V) as a member of the raw t
+ype java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/JIPTerm.java:[256,38] unchecked call to addElement(E) as a member of the
+raw type java.util.Vector
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/JIPTerm.java:[276,54] unchecked call to addElement(E) as a member of the
+raw type java.util.Vector
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/util/ClassProvider.java:[58,20] unchecked call to put(K,V) as a member of the raw type ja
+va.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/util/ClassProvider.java:[75,20] unchecked call to put(K,V) as a member of the raw type ja
+va.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/util/JARClassProvider.java:[53,33] unchecked call to addElement(E) as a member of the raw
+ type java.util.Vector
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/EventNotifier.java:[57,48] unchecked call to insertElementAt(E,int) as a
+member of the raw type java.util.Vector
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/EventNotifier.java:[75,48] unchecked call to insertElementAt(E,int) as a
+member of the raw type java.util.Vector
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/EventNotifier.java:[144,32] unchecked call to addElement(E) as a member o
+f the raw type java.util.Vector
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/JIPTermParser.java:[79,23] java.io.StringBufferInputStream in java.io has
+ been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/JIPTermParser.java:[79,59] java.io.StringBufferInputStream in java.io has
+ been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/OperatorManager.java:[147,30] unchecked call to put(K,V) as a member of t
+he raw type java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/OperatorManager.java:[173,34] unchecked call to put(K,V) as a member of t
+he raw type java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/DefaultClausesDatabase.java:[75,41] clauses() in com.ugos.jiprolog.engine
+.DefaultClausesDatabase overrides clauses() in com.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/DefaultClausesDatabase.java:[69,37] clauses(com.ugos.jiprolog.engine.JIPF
+unctor) in com.ugos.jiprolog.engine.DefaultClausesDatabase overrides clauses(com.ugos.jiprolog.engine.JIPFunctor) in com.ugos.jiprolog.engine.JIP
+ClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/DefaultClausesDatabase.java:[61,30] clauses(com.ugos.jiprolog.engine.Func
+tor) in com.ugos.jiprolog.engine.DefaultClausesDatabase overrides clauses(com.ugos.jiprolog.engine.Functor) in com.ugos.jiprolog.engine.JIPClause
+sDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/DefaultClausesDatabase.java:[66,62] unchecked cast
+  required: java.util.Vector<com.ugos.jiprolog.engine.Clause>
+  found:    java.lang.Object
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/DefaultClausesDatabase.java:[80,62] unchecked cast
+  required: java.util.Vector<com.ugos.jiprolog.engine.Clause>
+  found:    java.lang.Object
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/NotIndexedDefaultClausesDatabase.java:[23,1] clauses() in com.ugos.jiprol
+og.engine.DefaultClausesDatabase overrides clauses() in com.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/NotIndexedDefaultClausesDatabase.java:[23,1] clauses(com.ugos.jiprolog.en
+gine.JIPFunctor) in com.ugos.jiprolog.engine.DefaultClausesDatabase overrides clauses(com.ugos.jiprolog.engine.JIPFunctor) in com.ugos.jiprolog.e
+ngine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/WAMTrace.java:[189,64] unchecked method invocation: method unify in class
+ com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/WAMTrace.java:[189,83] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Is2.java:[28,33] unchecked method invocation: method unify in class com.u
+gos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Expression,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Is2.java:[28,67] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/List.java:[54,54] unchecked method invocation: method _unify in class com
+.ugos.jiprolog.engine.Variable is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.List,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/List.java:[54,61] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/List.java:[65,33] unchecked method invocation: method _unify in class com
+.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/List.java:[65,58] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/List.java:[70,45] unchecked method invocation: method _unify in class com
+.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/List.java:[70,70] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/List.java:[76,65] unchecked method invocation: method _unify in class com
+.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/List.java:[76,74] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/List.java:[84,68] unchecked method invocation: method unify in class com.
+ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.List,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/List.java:[84,79] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Encoding1.java:[36,43] unchecked method invocation: method unify in class
+ com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.List,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Encoding1.java:[36,54] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Encoding1.java:[38,43] unchecked method invocation: method unify in class
+ com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Atom,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Encoding1.java:[38,91] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/extensions/database/PrologClausesDatabase.java:[88,28] clauses() in com.ugos.jip
+rolog.extensions.database.PrologClausesDatabase overrides clauses() in com.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/extensions/database/PrologClausesDatabase.java:[77,24] clauses(com.ugos.jiprolog
+.engine.JIPFunctor) in com.ugos.jiprolog.extensions.database.PrologClausesDatabase overrides clauses(com.ugos.jiprolog.engine.JIPFunctor) in com.
+ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/PString.java:[177,54] unchecked method invocation: method _unify in class
+ com.ugos.jiprolog.engine.Variable is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PString,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/PString.java:[177,61] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[48,30] show() in java.awt.Window has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[61,12] show() in java.awt.Window has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[66,43] show() in java.awt.Window has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[71,37] unchecked call to insertElementAt(E,int) as a member
+of the raw type java.util.Vector
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[80,32] unchecked call to addElement(E) as a member of the ra
+w type java.util.Vector
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[247,21] show() in java.awt.Window has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[302,48] show() in java.awt.Window has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[345,17] show() in java.awt.Dialog has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[413,17] show() in java.awt.Dialog has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/gui/JIPConsoleApplet.java:[84,9] show() in java.awt.Component has been deprecate
+d
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/gui/TraceDialog.java:[185,17] show() in java.awt.Dialog has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Ver4.java:[29,42] unchecked method invocation: method unify in class com.
+ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Expression,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Ver4.java:[29,85] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Ver4.java:[30,42] unchecked method invocation: method unify in class com.
+ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Expression,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Ver4.java:[30,85] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Ver4.java:[31,42] unchecked method invocation: method unify in class com.
+ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Expression,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Ver4.java:[31,85] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Ver4.java:[32,42] unchecked method invocation: method unify in class com.
+ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Expression,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Ver4.java:[32,88] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/InputDialog.java:[96,58] getFontMetrics(java.awt.Font) in java.awt.Toolkit has been d
+eprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/extensions/database/TextAtomClausesDatabase.java:[123,28] clauses() in com.ugos.
+jiprolog.extensions.database.TextAtomClausesDatabase overrides clauses() in com.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/extensions/database/TextAtomClausesDatabase.java:[117,24] clauses(com.ugos.jipro
+log.engine.JIPFunctor) in com.ugos.jiprolog.extensions.database.TextAtomClausesDatabase overrides clauses(com.ugos.jiprolog.engine.JIPFunctor) in
+ com.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Load1.java:[94,26] unchecked call to put(K,V) as a member of the raw type
+ java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Load1.java:[106,32] unchecked method invocation: method _assert in class
+com.ugos.jiprolog.engine.Consult1 is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,com.ugos.jiprolog.engine.JIPEngine,java.lang.String,com.ugos.jiprolog.engine.ParserReader,java.
+util.Hashtable<java.lang.String,java.lang.String>,java.util.Vector<com.ugos.jiprolog.engine.PrologObject>,com.ugos.jiprolog.engine.WAM,boolean
+  found: com.ugos.jiprolog.engine.PrologObject,com.ugos.jiprolog.engine.JIPEngine,java.lang.String,<nulltype>,java.util.Hashtable,java.util.Vecto
+r<com.ugos.jiprolog.engine.PrologObject>,com.ugos.jiprolog.engine.WAM,boolean
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Load1.java:[106,66] unchecked conversion
+  required: java.util.Hashtable<java.lang.String,java.lang.String>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/MessageDialog.java:[77,58] getFontMetrics(java.awt.Font) in java.awt.Toolkit has been
+ deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/MessageDialog.java:[107,20] action(java.awt.Event,java.lang.Object) in java.awt.Compo
+nent has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/MessageDialog.java:[115,21] action(java.awt.Event,java.lang.Object) in java.awt.Compo
+nent has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/gui/JIPConsoleView.java:[345,18] save(java.io.OutputStream,java.lang.String) in
+java.util.Properties has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/gui/TerminalTextArea.java:[96,41] unchecked call to addElement(E) as a member of
+ the raw type java.util.Vector
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/PromptDialog.java:[83,58] getFontMetrics(java.awt.Font) in java.awt.Toolkit has been
+deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/PromptDialog.java:[139,20] handleEvent(java.awt.Event) in java.awt.Component has been
+ deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/PromptDialog.java:[157,21] handleEvent(java.awt.Event) in java.awt.Component has been
+ deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/PromptDialog.java:[170,21] handleEvent(java.awt.Event) in java.awt.Component has been
+ deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/PromptDialog.java:[175,21] handleEvent(java.awt.Event) in java.awt.Component has been
+ deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/PromptDialog.java:[180,21] handleEvent(java.awt.Event) in java.awt.Component has been
+ deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/PromptDialog.java:[185,21] handleEvent(java.awt.Event) in java.awt.Component has been
+ deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Findall4.java:[67,27] unchecked method invocation: method unify in class
+com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Findall4.java:[67,39] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/KeySort2.java:[110,32] unchecked method invocation: method unify in class
+ com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/KeySort2.java:[110,41] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/PredicateProperties2.java:[104,33] unchecked method invocation: method un
+ify in class com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.List,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/PredicateProperties2.java:[104,45] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/PrologParser.java:[1139,31] unchecked call to push(E) as a member of the
+raw type java.util.Stack
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/PrologParser.java:[1147,35] unchecked call to push(E) as a member of the
+raw type java.util.Stack
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/PrologParser.java:[1149,35] unchecked call to push(E) as a member of the
+raw type java.util.Stack
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/StrongCut1.java:[31,20] unchecked method invocation: method unify in clas
+s com.ugos.jiprolog.engine.Call1 is applied to given types
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/StrongCut1.java:[31,21] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/BagOf3.java:[41,27] unchecked method invocation: method unify in class co
+m.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/BagOf3.java:[41,66] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/BagOf3.java:[43,30] unchecked call to push(E) as a member of the raw type
+ java.util.Stack
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/BagOf3.java:[66,25] unchecked method invocation: method unify in class co
+m.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.List,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/BagOf3.java:[66,35] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/BagOf3.java:[81,31] unchecked call to addElement(E) as a member of the ra
+w type java.util.Vector
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/BagOf3.java:[84,35] unchecked call to addElement(E) as a member of the ra
+w type java.util.Vector
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/IndexedDefaultClausesDatabase.java:[7,7] clauses() in com.ugos.jiprolog.e
+ngine.DefaultClausesDatabase overrides clauses() in com.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/IndexedDefaultClausesDatabase.java:[7,7] clauses(com.ugos.jiprolog.engine
+.JIPFunctor) in com.ugos.jiprolog.engine.DefaultClausesDatabase overrides clauses(com.ugos.jiprolog.engine.JIPFunctor) in com.ugos.jiprolog.engin
+e.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/IndexedDefaultClausesDatabase.java:[373,43] clauses(com.ugos.jiprolog.eng
+ine.Functor) in com.ugos.jiprolog.engine.IndexedDefaultClausesDatabase overrides clauses(com.ugos.jiprolog.engine.Functor) in com.ugos.jiprolog.e
+ngine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/IndexedDefaultClausesDatabase.java:[448,60] unchecked cast
+  required: java.util.Vector<com.ugos.jiprolog.engine.Clause>
+  found:    java.lang.Object
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Multifile1.java:[84,51] unchecked call to addElement(E) as a member of th
+e raw type java.util.Vector
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Multifile1.java:[89,51] unchecked call to addElement(E) as a member of th
+e raw type java.util.Vector
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/Dialogs.java:[26,15] show() in java.awt.Dialog has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/Dialogs.java:[34,12] show() in java.awt.Dialog has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/Dialogs.java:[43,17] show() in java.awt.Dialog has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/Dialogs.java:[55,18] show() in java.awt.Dialog has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/Dialogs.java:[67,16] show() in java.awt.Dialog has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/extensions/reflect/JIPInvoke4.java:[112,35] unchecked call to addElement(E) as a
+ member of the raw type java.util.Vector
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/extensions/reflect/JIPInvoke4.java:[173,44] unchecked call to getMethod(java.lan
+g.String,java.lang.Class<?>...) as a member of the raw type java.lang.Class
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Findall3.java:[58,27] unchecked method invocation: method unify in class
+com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.List,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Findall3.java:[58,39] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[51,49] unchecked method invocation: method unify in class
+com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[51,56] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[51,85] unchecked method invocation: method unify in class
+com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Expression,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[51,114] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[69,45] unchecked method invocation: method unify in class
+com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[69,52] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[80,45] unchecked method invocation: method unify in class
+com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[80,59] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[104,37] unchecked method invocation: method unify in class
+ com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[104,51] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[168,79] unchecked method invocation: method unify in class
+ com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.ConsCell,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[169,81] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/TextMessageDialog.java:[79,58] getFontMetrics(java.awt.Font) in java.awt.Toolkit has
+been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/TextMessageDialog.java:[92,20] action(java.awt.Event,java.lang.Object) in java.awt.Co
+mponent has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/TextMessageDialog.java:[100,21] action(java.awt.Event,java.lang.Object) in java.awt.C
+omponent has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/extensions/database/JDBCClausesDatabase.java:[437,28] clauses() in com.ugos.jipr
+olog.extensions.database.JDBCClausesDatabase overrides clauses() in com.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/extensions/database/JDBCClausesDatabase.java:[413,30] clauses(com.ugos.jiprolog.
+engine.JIPFunctor) in com.ugos.jiprolog.extensions.database.JDBCClausesDatabase overrides clauses(com.ugos.jiprolog.engine.JIPFunctor) in com.ugo
+s.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Sort4.java:[141,32] unchecked method invocation: method unify in class co
+m.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Sort4.java:[141,41] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Retract1.java:[53,36] unchecked method invocation: method unify in class
+com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Clause,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Retract1.java:[53,54] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Retract1.java:[96,40] unchecked method invocation: method unify in class
+com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Clause,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Retract1.java:[96,56] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/ZeroArityDefaultClausesDatabase.java:[24,1] clauses() in com.ugos.jiprolo
+g.engine.DefaultClausesDatabase overrides clauses() in com.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/ZeroArityDefaultClausesDatabase.java:[24,1] clauses(com.ugos.jiprolog.eng
+ine.JIPFunctor) in com.ugos.jiprolog.engine.DefaultClausesDatabase overrides clauses(com.ugos.jiprolog.engine.JIPFunctor) in com.ugos.jiprolog.en
+gine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/CurrentQueryHandle1.java:[29,33] unchecked method invocation: method unif
+y in class com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Expression,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/CurrentQueryHandle1.java:[29,77] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Ver1.java:[28,33] unchecked method invocation: method unify in class com.
+ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Atom,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Ver1.java:[28,75] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/extensions/database/TextClausesDatabase.java:[123,28] clauses() in com.ugos.jipr
+olog.extensions.database.TextClausesDatabase overrides clauses() in com.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/extensions/database/TextClausesDatabase.java:[117,24] clauses(com.ugos.jiprolog.
+engine.JIPFunctor) in com.ugos.jiprolog.extensions.database.TextClausesDatabase overrides clauses(com.ugos.jiprolog.engine.JIPFunctor) in com.ugo
+s.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/gui/JIPConsole.java:[132,9] show() in java.awt.Window has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Pid1.java:[19,80] unchecked call to getMethod(java.lang.String,java.lang.
+Class<?>...) as a member of the raw type java.lang.Class
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Pid1.java:[22,80] unchecked call to getDeclaredMethod(java.lang.String,ja
+va.lang.Class<?>...) as a member of the raw type java.lang.Class
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/extensions/reflect/JIPCreateObject3.java:[99,35] unchecked call to addElement(E)
+ as a member of the raw type java.util.Vector
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/extensions/reflect/JIPCreateObject3.java:[131,57] unchecked call to getConstruct
+or(java.lang.Class<?>...) as a member of the raw type java.lang.Class
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Length2.java:[51,79] unchecked method invocation: method unify in class c
+om.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Length2.java:[51,93] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Length2.java:[55,93] unchecked method invocation: method unify in class c
+om.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Length2.java:[55,107] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Length2.java:[60,65] unchecked method invocation: method unify in class c
+om.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Length2.java:[60,79] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Length2.java:[71,37] unchecked method invocation: method unify in class c
+om.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.List,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Length2.java:[71,44] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/gui/SplashWnd.java:[68,17] show() in java.awt.Window has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/gui/SplashWnd.java:[93,14] show() in java.awt.Window has been deprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/awt/YesNoDialog.java:[80,58] getFontMetrics(java.awt.Font) in java.awt.Toolkit has been d
+eprecated
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/extensions/reflect/JIPxReflect.java:[65,29] unchecked call to put(K,V) as a memb
+er of the raw type java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/extensions/reflect/JIPxReflect.java:[250,37] unchecked call to addElement(E) as
+a member of the raw type java.util.Vector
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Univ2.java:[133,26] unchecked method invocation: method unify in class co
+m.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Univ2.java:[133,33] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/MSort2.java:[53,32] unchecked method invocation: method unify in class co
+m.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/MSort2.java:[53,41] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Discontiguous1.java:[61,51] unchecked call to addElement(E) as a member o
+f the raw type java.util.Vector
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Discontiguous1.java:[66,51] unchecked call to addElement(E) as a member o
+f the raw type java.util.Vector
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Copyright1.java:[28,33] unchecked method invocation: method unify in clas
+s com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Atom,java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Copyright1.java:[28,81] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiucpro/src/main/java/com/ugos/jiprolog/engine/Spy1.java:[59,29] unchecked call to put(K,V) as a member of the raw type
+java.util.Hashtable
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jiprolog ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 6 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ jiprolog ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to D:\jiucpro\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jiprolog ---
+[INFO] Surefire report directory: D:\jiucpro\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.ugos.jiprolog.example.AsynchronousQueryTest
+This is printed only once at the AsynchronousQueryTest beginning
+java.lang.NullPointerException
+        at java.io.ObjectInputStream$PeekInputStream.read(ObjectInputStream.java:2814)
+        at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2830)
+        at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3307)
+        at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:934)
+        at java.io.ObjectInputStream.<init>(ObjectInputStream.java:396)
+        at com.ugos.jiprolog.engine.GlobalDB.loadKernel(GlobalDB.java:717)
+        at com.ugos.jiprolog.engine.GlobalDB.<init>(GlobalDB.java:89)
+        at com.ugos.jiprolog.engine.JIPEngine.<init>(JIPEngine.java:131)
+        at com.ugos.jiprolog.example.AsynchronousQueryTest.start(AsynchronousQueryTest.java:80)
+        at com.ugos.jiprolog.example.AsynchronousQueryTest.main(AsynchronousQueryTest.java:74)
+        at com.ugos.jiprolog.example.AsynchronousQueryTest.test(AsynchronousQueryTest.java:56)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+        at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+        at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+        at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+        at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+        at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+        at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+        at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+        at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+        at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+        at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+        at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+        at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+        at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+        at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+        at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+        at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+com.ugos.jiprolog.engine.JIPRuntimeException: error(system_error('\'Unable to load Kernel: java.lang.NullPointerException\''),context(undefined,f
+ile(undefined,0)))
+        at com.ugos.jiprolog.engine.GlobalDB.loadKernel(GlobalDB.java:756)
+        at com.ugos.jiprolog.engine.GlobalDB.<init>(GlobalDB.java:89)
+        at com.ugos.jiprolog.engine.JIPEngine.<init>(JIPEngine.java:131)
+        at com.ugos.jiprolog.example.AsynchronousQueryTest.start(AsynchronousQueryTest.java:80)
+        at com.ugos.jiprolog.example.AsynchronousQueryTest.main(AsynchronousQueryTest.java:74)
+        at com.ugos.jiprolog.example.AsynchronousQueryTest.test(AsynchronousQueryTest.java:56)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+        at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+        at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+        at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+        at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+        at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+        at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+        at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+        at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+        at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+        at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+        at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+        at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+        at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+        at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+        at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+        at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+######### PROGRAM FINISHED ###############
+AsynchronousQueryTest - last thing printed
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.517 sec
+Running com.ugos.jiprolog.example.SynchronousQueryTest
+This is printed only once at the SynchronousQueryTest beginning
+java.lang.NullPointerException
+        at com.ugos.jiprolog.engine.JIPEngine.<init>(JIPEngine.java:138)
+        at com.ugos.jiprolog.example.SynchronousQueryTest.main(SynchronousQueryTest.java:65)
+        at com.ugos.jiprolog.example.SynchronousQueryTest.test(SynchronousQueryTest.java:53)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+        at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+        at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+        at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+        at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+        at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+        at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+        at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+        at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+        at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+        at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+        at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+        at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+        at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+        at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+        at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+        at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+        at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+        at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+######### PROGRAM FINISHED ###############
+SynchronousQueryTest - last thing printed
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.437 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ jiprolog ---
+[INFO] Building jar: D:\jiucpro\target\jiprolog-1.0.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ jiprolog ---
+[INFO] Installing D:\jiucpro\target\jiprolog-1.0.jar to C:\Users\gozuw10\.m2\repository\com\ugos\jiprolog\1.0\jiprolog-1.0.jar
+[INFO] Installing D:\jiucpro\pom.xml to C:\Users\gozuw10\.m2\repository\com\ugos\jiprolog\1.0\jiprolog-1.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.522 s
+[INFO] Finished at: 2025-09-16T07:37:29+02:00
+[INFO] Final Memory: 22M/606M
+[INFO] ------------------------------------------------------------------------
+D:\jiucpro>
+
+rem compile 4.1.7.6
+D:\jiuc-prolog>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Ji Prolog 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jiprolog ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 18 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jiprolog ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.974 s
+[INFO] Finished at: 2025-09-16T08:30:06+02:00
+[INFO] Final Memory: 18M/726M
+[INFO] ------------------------------------------------------------------------
+D:\jiuc-prolog>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   pom.xml
+        modified:   src/main/java/com/ugos/io/PushbackLineNumberInputStream.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/Assert1.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/Asserta1.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/AsyncWAMManager.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/Clause.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/Compile2.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/Consult1.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/Expression.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/GlobalDB.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/JIPEngine.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/JIPQuery.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/JIPTermParser.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/Pack2.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/ParserReader.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/PredicateProperties2.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/PrettyPrinter.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/PrologParser.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/PrologTokenizer.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/RulesEnumeration.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/WAM.java
+        modified:   src/main/java/com/ugos/jiprolog/engine/WAMTrace.java
+        modified:   src/main/java/com/ugos/jiprolog/extensions/io/Get02.java
+        modified:   src/main/java/com/ugos/jiprolog/extensions/io/GetByte2.java
+        modified:   src/main/java/com/ugos/jiprolog/extensions/io/GetChar2.java
+        modified:   src/main/java/com/ugos/jiprolog/extensions/io/GetCode2.java
+        modified:   src/main/java/com/ugos/jiprolog/extensions/io/InputStreamInfo.java
+        modified:   src/main/java/com/ugos/jiprolog/extensions/io/JIPio.java
+        modified:   src/main/java/com/ugos/jiprolog/extensions/io/PeekByte2.java
+        modified:   src/main/java/com/ugos/jiprolog/extensions/io/PeekChar2.java
+        modified:   src/main/java/com/ugos/jiprolog/extensions/io/PeekCode2.java
+        modified:   src/main/java/com/ugos/jiprolog/extensions/io/ReadTerm3.java
+        modified:   src/main/java/com/ugos/jiprolog/extensions/io/SetInput1.java
+        modified:   src/main/java/com/ugos/jiprolog/gui/EditFrame.java
+        modified:   src/main/java/com/ugos/jiprolog/gui/JIPConsoleController.java
+        modified:   src/main/java/com/ugos/jiprolog/resources/jipkernel.txt
+        modified:   src/main/java/com/ugos/util/ClassLoaderEx.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\jiuc-prolog>
+
+D:\jiuc-prolog>java -jar target\jiprolog-1.0.jar -debug
+GlobalDebug
+query handle -1
+strQuery hello
+query handle -1
+strQuery compile.
+query handle -1
+strQuery
+| ?- hello
+- Warning, the predicate hello/0 is undefined.
+No
+
+| ?- compile.
+sources .pl or .txt for compile are in /src/main/resources/com/ugos/jiprolog/resources folder
+compilation start
+compilation done
+
+| ?- Bhabhi
+query handle -1
+strQuery query_family
+query handle -1
+strQuery query_family
+query handle -1
+strQuery male(james).
+query handle -1
+strQuery james
+query handle -1
+strQuery ? james
+query handle -1
+strQuery % james
+Exception in thread "AWT-EventQueue-0" com.ugos.jiprolog.engine.JIPRuntimeException: error(system_error('\'The type of the term null is unknown\'
+'),context(undefined,file(undefined,0)))
+        at com.ugos.jiprolog.engine.JIPRuntimeException.createRuntimeException(JIPRuntimeException.java:209)
+        at com.ugos.jiprolog.engine.JIPTerm.getJIPTerm(JIPTerm.java:349)
+        at com.ugos.jiprolog.engine.JIPTermParser.parseTerm(JIPTermParser.java:85)
+        at com.ugos.jiprolog.gui.JIPConsoleController.onQuery(JIPConsoleController.java:329)
+        at com.ugos.jiprolog.gui.JIPConsoleViewApp.actionPerformed(JIPConsoleViewApp.java:250)
+        at com.ugos.jiprolog.gui.TerminalTextArea.processActionEvent(TerminalTextArea.java:192)
+        at com.ugos.jiprolog.gui.TerminalTextArea.processEvent(TerminalTextArea.java:182)
+        at com.ugos.jiprolog.gui.TerminalTextArea.keyPressed(TerminalTextArea.java:105)
+        at java.awt.AWTEventMulticaster.keyPressed(AWTEventMulticaster.java:249)
+        at java.awt.Component.processKeyEvent(Component.java:6497)
+        at java.awt.Component.processEvent(Component.java:6316)
+        at java.awt.TextComponent.processEvent(TextComponent.java:673)
+        at com.ugos.jiprolog.gui.TerminalTextArea.processEvent(TerminalTextArea.java:185)
+        at java.awt.Component.dispatchEventImpl(Component.java:4889)
+        at java.awt.Component.dispatchEvent(Component.java:4711)
+        at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1958)
+        at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:834)
+        at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1102)
+        at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:973)
+        at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:799)
+        at java.awt.Component.dispatchEventImpl(Component.java:4760)
+        at java.awt.Component.dispatchEvent(Component.java:4711)
+        at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+        at java.awt.EventQueue.access$500(EventQueue.java:97)
+        at java.awt.EventQueue$3.run(EventQueue.java:709)
+        at java.awt.EventQueue$3.run(EventQueue.java:703)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+        at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+        at java.awt.EventQueue$4.run(EventQueue.java:733)
+        at java.awt.EventQueue$4.run(EventQueue.java:731)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+        at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+        at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+        at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+        at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+        at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+        at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+        at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+query handle -1
+strQuery % james
+
+Exception in thread "AWT-EventQueue-0" com.ugos.jiprolog.engine.JIPRuntimeException: error(system_error('\'The type of the term null is unknown\'
+'),context(undefined,file(undefined,0)))
+        at com.ugos.jiprolog.engine.JIPRuntimeException.createRuntimeException(JIPRuntimeException.java:209)
+        at com.ugos.jiprolog.engine.JIPTerm.getJIPTerm(JIPTerm.java:349)
+        at com.ugos.jiprolog.engine.JIPTermParser.parseTerm(JIPTermParser.java:85)
+        at com.ugos.jiprolog.gui.JIPConsoleController.onQuery(JIPConsoleController.java:329)
+        at com.ugos.jiprolog.gui.JIPConsoleViewApp.actionPerformed(JIPConsoleViewApp.java:250)
+        at com.ugos.jiprolog.gui.TerminalTextArea.processActionEvent(TerminalTextArea.java:192)
+        at com.ugos.jiprolog.gui.TerminalTextArea.processEvent(TerminalTextArea.java:182)
+        at com.ugos.jiprolog.gui.TerminalTextArea.keyPressed(TerminalTextArea.java:105)
+        at java.awt.AWTEventMulticaster.keyPressed(AWTEventMulticaster.java:249)
+        at java.awt.Component.processKeyEvent(Component.java:6497)
+        at java.awt.Component.processEvent(Component.java:6316)
+        at java.awt.TextComponent.processEvent(TextComponent.java:673)
+        at com.ugos.jiprolog.gui.TerminalTextArea.processEvent(TerminalTextArea.java:185)
+        at java.awt.Component.dispatchEventImpl(Component.java:4889)
+        at java.awt.Component.dispatchEvent(Component.java:4711)
+        at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1958)
+        at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:834)
+        at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1102)
+        at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:973)
+        at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:799)
+        at java.awt.Component.dispatchEventImpl(Component.java:4760)
+        at java.awt.Component.dispatchEvent(Component.java:4711)
+        at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+        at java.awt.EventQueue.access$500(EventQueue.java:97)
+        at java.awt.EventQueue$3.run(EventQueue.java:709)
+        at java.awt.EventQueue$3.run(EventQueue.java:703)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+        at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+        at java.awt.EventQueue$4.run(EventQueue.java:733)
+        at java.awt.EventQueue$4.run(EventQueue.java:731)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+        at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+        at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+        at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+        at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+        at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+        at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+        at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+D:\jiuc-prolog>java -jar target\jiprolog-1.0.jar
+java.lang.NullPointerException
+        at java.io.ObjectInputStream$PeekInputStream.read(ObjectInputStream.java:2814)
+        at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2830)
+        at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3307)
+        at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:934)
+        at java.io.ObjectInputStream.<init>(ObjectInputStream.java:396)
+        at com.ugos.jiprolog.engine.GlobalDB.loadKernel(GlobalDB.java:717)
+        at com.ugos.jiprolog.engine.GlobalDB.<init>(GlobalDB.java:89)
+        at com.ugos.jiprolog.engine.JIPEngine.<init>(JIPEngine.java:133)
+        at com.ugos.jiprolog.gui.JIPConsoleController.<init>(JIPConsoleController.java:94)
+        at com.ugos.jiprolog.gui.JIPConsole.<init>(JIPConsole.java:127)
+        at com.ugos.jiprolog.gui.JIPConsole.main(JIPConsole.java:66)
+Exception in thread "main" com.ugos.jiprolog.engine.JIPRuntimeException: error(system_error('\'Unable to load Kernel: java.lang.NullPointerExcept
+ion\''),context(undefined,file(undefined,0)))
+        at com.ugos.jiprolog.engine.GlobalDB.loadKernel(GlobalDB.java:756)
+        at com.ugos.jiprolog.engine.GlobalDB.<init>(GlobalDB.java:89)
+        at com.ugos.jiprolog.engine.JIPEngine.<init>(JIPEngine.java:133)
+        at com.ugos.jiprolog.gui.JIPConsoleController.<init>(JIPConsoleController.java:94)
+        at com.ugos.jiprolog.gui.JIPConsole.<init>(JIPConsole.java:127)
+        at com.ugos.jiprolog.gui.JIPConsole.main(JIPConsole.java:66)
+
+D:\jiuc-prolog>java -jar target\jiprolog-1.0.jar --debug
+java.lang.NullPointerException
+        at java.io.ObjectInputStream$PeekInputStream.read(ObjectInputStream.java:2814)
+        at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2830)
+        at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3307)
+        at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:934)
+        at java.io.ObjectInputStream.<init>(ObjectInputStream.java:396)
+        at com.ugos.jiprolog.engine.GlobalDB.loadKernel(GlobalDB.java:717)
+        at com.ugos.jiprolog.engine.GlobalDB.<init>(GlobalDB.java:89)
+        at com.ugos.jiprolog.engine.JIPEngine.<init>(JIPEngine.java:133)
+        at com.ugos.jiprolog.gui.JIPConsoleController.<init>(JIPConsoleController.java:94)
+        at com.ugos.jiprolog.gui.JIPConsole.<init>(JIPConsole.java:127)
+        at com.ugos.jiprolog.gui.JIPConsole.main(JIPConsole.java:66)
+Exception in thread "main" com.ugos.jiprolog.engine.JIPRuntimeException: error(system_error('\'Unable to load Kernel: java.lang.NullPointerExcept
+ion\''),context(undefined,file(undefined,0)))
+        at com.ugos.jiprolog.engine.GlobalDB.loadKernel(GlobalDB.java:756)
+        at com.ugos.jiprolog.engine.GlobalDB.<init>(GlobalDB.java:89)
+        at com.ugos.jiprolog.engine.JIPEngine.<init>(JIPEngine.java:133)
+        at com.ugos.jiprolog.gui.JIPConsoleController.<init>(JIPConsoleController.java:94)
+        at com.ugos.jiprolog.gui.JIPConsole.<init>(JIPConsole.java:127)
+        at com.ugos.jiprolog.gui.JIPConsole.main(JIPConsole.java:66)
+
+D:\jiuc-prolog>java -jar target\jiprolog-1.0.jar --debug
+java.lang.NullPointerException
+        at java.io.ObjectInputStream$PeekInputStream.read(ObjectInputStream.java:2814)
+        at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2830)
+        at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3307)
+        at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:934)
+        at java.io.ObjectInputStream.<init>(ObjectInputStream.java:396)
+        at com.ugos.jiprolog.engine.GlobalDB.loadKernel(GlobalDB.java:717)
+        at com.ugos.jiprolog.engine.GlobalDB.<init>(GlobalDB.java:89)
+        at com.ugos.jiprolog.engine.JIPEngine.<init>(JIPEngine.java:133)
+        at com.ugos.jiprolog.gui.JIPConsoleController.<init>(JIPConsoleController.java:94)
+        at com.ugos.jiprolog.gui.JIPConsole.<init>(JIPConsole.java:127)
+        at com.ugos.jiprolog.gui.JIPConsole.main(JIPConsole.java:66)
+Exception in thread "main" com.ugos.jiprolog.engine.JIPRuntimeException: error(system_error('\'Unable to load Kernel: java.lang.NullPointerExcept
+ion\''),context(undefined,file(undefined,0)))
+        at com.ugos.jiprolog.engine.GlobalDB.loadKernel(GlobalDB.java:756)
+        at com.ugos.jiprolog.engine.GlobalDB.<init>(GlobalDB.java:89)
+        at com.ugos.jiprolog.engine.JIPEngine.<init>(JIPEngine.java:133)
+        at com.ugos.jiprolog.gui.JIPConsoleController.<init>(JIPConsoleController.java:94)
+        at com.ugos.jiprolog.gui.JIPConsole.<init>(JIPConsole.java:127)
+        at com.ugos.jiprolog.gui.JIPConsole.main(JIPConsole.java:66)
+
+D:\jiuc-prolog>mvn install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Ji Prolog 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jiprolog ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 31 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jiprolog ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jiprolog ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 6 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jiprolog ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jiprolog ---
+[INFO] Surefire report directory: D:\jiuc-prolog\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.ugos.jiprolog.example.AsynchronousQueryTest
+This is printed only once at the AsynchronousQueryTest beginning
+open
+solution:
+father(james,michael)
+Father = james
+Child = michael
+more
+solution:
+father(james,william)
+Father = james
+Child = william
+more
+solution:
+father(james,linda)
+Father = james
+Child = linda
+more
+solution:
+father(john,elizabeth)
+Father = john
+Child = elizabeth
+more
+solution:
+father(john,maria)
+Father = john
+Child = maria
+more
+solution:
+father(john,robert)
+Father = john
+Child = robert
+more
+solution:
+father(michael,raghav)
+Father = michael
+Child = raghav
+more
+solution:
+father(michael,susan)
+Father = michael
+Child = susan
+more
+solution:
+father(raghav,charles)
+Father = raghav
+Child = charles
+more
+end
+close
+######### PROGRAM FINISHED ###############
+AsynchronousQueryTest - last thing printed
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.112 sec
+Running com.ugos.jiprolog.example.SynchronousQueryTest
+This is printed only once at the SynchronousQueryTest beginning
+?- father(Father, Child). -->father(_478,_479)
+jip ?- father(Father, Child). -->father(_478,_479)
+
+next solution: father(james,michael)
+Father = james
+Child = michael
+next solution: father(james,william)
+Father = james
+Child = william
+next solution: father(james,linda)
+Father = james
+Child = linda
+next solution: father(john,elizabeth)
+Father = john
+Child = elizabeth
+next solution: father(john,maria)
+Father = john
+Child = maria
+next solution: father(john,robert)
+Father = john
+Child = robert
+next solution: father(michael,raghav)
+Father = michael
+Child = raghav
+next solution: father(michael,susan)
+Father = michael
+Child = susan
+next solution: father(raghav,charles)
+Father = raghav
+Child = charles
+######### PROGRAM FINISHED ###############
+SynchronousQueryTest - last thing printed
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ jiprolog ---
+[INFO] Building jar: D:\jiuc-prolog\target\jiprolog-1.0.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ jiprolog ---
+[INFO] Installing D:\jiuc-prolog\target\jiprolog-1.0.jar to C:\Users\gozuw10\.m2\repository\com\ugos\jiprolog\1.0\jiprolog-1.0.jar
+[INFO] Installing D:\jiuc-prolog\pom.xml to C:\Users\gozuw10\.m2\repository\com\ugos\jiprolog\1.0\jiprolog-1.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.235 s
+[INFO] Finished at: 2025-09-16T12:56:39+02:00
+[INFO] Final Memory: 12M/726M
+[INFO] ------------------------------------------------------------------------
+D:\jiuc-prolog>
+D:\jiuc-prolog>mvn install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Ji Prolog 4.1.7.6
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jiprolog ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 31 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ jiprolog ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jiprolog ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 6 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ jiprolog ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jiprolog ---
+[INFO] Surefire report directory: D:\jiuc-prolog\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.ugos.jiprolog.example.AsynchronousQueryTest
+This is printed only once at the AsynchronousQueryTest beginning
+open
+solution:
+father(james,michael)
+Father = james
+Child = michael
+more
+solution:
+father(james,william)
+Father = james
+Child = william
+more
+solution:
+father(james,linda)
+Father = james
+Child = linda
+more
+solution:
+father(john,elizabeth)
+Father = john
+Child = elizabeth
+more
+solution:
+father(john,maria)
+Father = john
+Child = maria
+more
+solution:
+father(john,robert)
+Father = john
+Child = robert
+more
+solution:
+father(michael,raghav)
+Father = michael
+Child = raghav
+more
+solution:
+father(michael,susan)
+Father = michael
+Child = susan
+more
+solution:
+father(raghav,charles)
+Father = raghav
+Child = charles
+more
+end
+close
+######### PROGRAM FINISHED ###############
+AsynchronousQueryTest - last thing printed
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.319 sec
+Running com.ugos.jiprolog.example.SynchronousQueryTest
+This is printed only once at the SynchronousQueryTest beginning
+?- father(Father, Child). -->father(_478,_479)
+jip ?- father(Father, Child). -->father(_478,_479)
+
+next solution: father(james,michael)
+Father = james
+Child = michael
+next solution: father(james,william)
+Father = james
+Child = william
+next solution: father(james,linda)
+Father = james
+Child = linda
+next solution: father(john,elizabeth)
+Father = john
+Child = elizabeth
+next solution: father(john,maria)
+Father = john
+Child = maria
+next solution: father(john,robert)
+Father = john
+Child = robert
+next solution: father(michael,raghav)
+Father = michael
+Child = raghav
+next solution: father(michael,susan)
+Father = michael
+Child = susan
+next solution: father(raghav,charles)
+Father = raghav
+Child = charles
+######### PROGRAM FINISHED ###############
+SynchronousQueryTest - last thing printed
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ jiprolog ---
+[INFO] Building jar: D:\jiuc-prolog\target\jiprolog-4.1.7.6.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ jiprolog ---
+[INFO] Installing D:\jiuc-prolog\target\jiprolog-4.1.7.6.jar to C:\Users\gozuw10\.m2\repository\com\ugos\jiprolog\4.1.7.6\jiprolog-4.1
+.7.6.jar
+[INFO] Installing D:\jiuc-prolog\pom.xml to C:\Users\gozuw10\.m2\repository\com\ugos\jiprolog\4.1.7.6\jiprolog-4.1.7.6.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.925 s
+[INFO] Finished at: 2025-09-16T13:16:21+02:00
+[INFO] Final Memory: 13M/726M
+[INFO] ------------------------------------------------------------------------
+D:\jiuc-prolog>
+
+
+D:\jiuc-prolog>mvn clean install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Ji Prolog 4.1.7.6
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ jiprolog ---
+[INFO] Deleting D:\jiuc-prolog\target
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jiprolog ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 31 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ jiprolog ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 276 source files to D:\jiuc-prolog\target\classes
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/extensions/reflect/JIPxReflect.java:[65,29] unchecked call to put(K,V) as a
+member of the raw type java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/extensions/reflect/JIPxReflect.java:[250,37] unchecked call to addElement(E)
+ as a member of the raw type java.util.Vector
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/JIPTerm.java:[79,23] unchecked method invocation: method unify in cla
+ss com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/JIPTerm.java:[79,36] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/JIPTerm.java:[86,28] unchecked call to put(K,V) as a member of the ra
+w type java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/JIPTerm.java:[235,24] unchecked call to put(K,V) as a member of the r
+aw type java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/JIPTerm.java:[256,38] unchecked call to addElement(E) as a member of
+the raw type java.util.Vector
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/JIPTerm.java:[276,54] unchecked call to addElement(E) as a member of
+the raw type java.util.Vector
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/WAM.java:[413,64] unchecked method invocation: method unify in class
+com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/WAM.java:[413,83] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/PrologObject.java:[130,20] unchecked method invocation: method copy i
+n class com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: boolean,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.PrologObject>
+  found: boolean,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/PrologObject.java:[130,27] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.PrologObject>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/PrologObject.java:[192,42] unchecked call to addElement(E) as a membe
+r of the raw type java.util.Vector
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/JIPEngine.java:[826,32] unchecked method invocation: method unify in
+class com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Clause,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/JIPEngine.java:[826,50] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/JIPEngine.java:[1142,31] unchecked method invocation: method unify in
+ class com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/JIPEngine.java:[1142,38] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/OperatorManager.java:[147,30] unchecked call to put(K,V) as a member
+of the raw type java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/OperatorManager.java:[173,34] unchecked call to put(K,V) as a member
+of the raw type java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/util/ClassProvider.java:[58,20] unchecked call to put(K,V) as a member of the raw typ
+e java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/util/ClassProvider.java:[75,20] unchecked call to put(K,V) as a member of the raw typ
+e java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/util/JARClassProvider.java:[53,33] unchecked call to addElement(E) as a member of the
+ raw type java.util.Vector
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/EventNotifier.java:[57,48] unchecked call to insertElementAt(E,int) a
+s a member of the raw type java.util.Vector
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/EventNotifier.java:[75,48] unchecked call to insertElementAt(E,int) a
+s a member of the raw type java.util.Vector
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/EventNotifier.java:[144,32] unchecked call to addElement(E) as a memb
+er of the raw type java.util.Vector
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/DefaultClausesDatabase.java:[75,41] clauses() in com.ugos.jiprolog.en
+gine.DefaultClausesDatabase overrides clauses() in com.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/DefaultClausesDatabase.java:[69,37] clauses(com.ugos.jiprolog.engine.
+JIPFunctor) in com.ugos.jiprolog.engine.DefaultClausesDatabase overrides clauses(com.ugos.jiprolog.engine.JIPFunctor) in com.ugos.jiprolog.engine
+.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/DefaultClausesDatabase.java:[61,30] clauses(com.ugos.jiprolog.engine.
+Functor) in com.ugos.jiprolog.engine.DefaultClausesDatabase overrides clauses(com.ugos.jiprolog.engine.Functor) in com.ugos.jiprolog.engine.JIPCl
+ausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/DefaultClausesDatabase.java:[66,62] unchecked cast
+  required: java.util.Vector<com.ugos.jiprolog.engine.Clause>
+  found:    java.lang.Object
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/DefaultClausesDatabase.java:[80,62] unchecked cast
+  required: java.util.Vector<com.ugos.jiprolog.engine.Clause>
+  found:    java.lang.Object
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/NotIndexedDefaultClausesDatabase.java:[23,1] clauses() in com.ugos.ji
+prolog.engine.DefaultClausesDatabase overrides clauses() in com.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/NotIndexedDefaultClausesDatabase.java:[23,1] clauses(com.ugos.jiprolo
+g.engine.JIPFunctor) in com.ugos.jiprolog.engine.DefaultClausesDatabase overrides clauses(com.ugos.jiprolog.engine.JIPFunctor) in com.ugos.jiprol
+og.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/WAMTrace.java:[189,64] unchecked method invocation: method unify in c
+lass com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/WAMTrace.java:[189,83] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Multifile1.java:[84,51] unchecked call to addElement(E) as a member o
+f the raw type java.util.Vector
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Multifile1.java:[89,51] unchecked call to addElement(E) as a member o
+f the raw type java.util.Vector
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/IndexedDefaultClausesDatabase.java:[7,7] clauses() in com.ugos.jiprol
+og.engine.DefaultClausesDatabase overrides clauses() in com.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/IndexedDefaultClausesDatabase.java:[7,7] clauses(com.ugos.jiprolog.en
+gine.JIPFunctor) in com.ugos.jiprolog.engine.DefaultClausesDatabase overrides clauses(com.ugos.jiprolog.engine.JIPFunctor) in com.ugos.jiprolog.e
+ngine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/IndexedDefaultClausesDatabase.java:[373,43] clauses(com.ugos.jiprolog
+.engine.Functor) in com.ugos.jiprolog.engine.IndexedDefaultClausesDatabase overrides clauses(com.ugos.jiprolog.engine.Functor) in com.ugos.jiprol
+og.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/IndexedDefaultClausesDatabase.java:[448,60] unchecked cast
+  required: java.util.Vector<com.ugos.jiprolog.engine.Clause>
+  found:    java.lang.Object
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Spy1.java:[59,29] unchecked call to put(K,V) as a member of the raw t
+ype java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/List.java:[54,54] unchecked method invocation: method _unify in class
+ com.ugos.jiprolog.engine.Variable is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.List,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/List.java:[54,61] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/List.java:[65,33] unchecked method invocation: method _unify in class
+ com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/List.java:[65,58] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/List.java:[70,45] unchecked method invocation: method _unify in class
+ com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/List.java:[70,70] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/List.java:[76,65] unchecked method invocation: method _unify in class
+ com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/List.java:[76,74] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/List.java:[84,68] unchecked method invocation: method unify in class
+com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.List,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/List.java:[84,79] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/MSort2.java:[53,32] unchecked method invocation: method unify in clas
+s com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/MSort2.java:[53,41] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/extensions/database/TextAtomClausesDatabase.java:[123,28] clauses() in com.u
+gos.jiprolog.extensions.database.TextAtomClausesDatabase overrides clauses() in com.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/extensions/database/TextAtomClausesDatabase.java:[117,24] clauses(com.ugos.j
+iprolog.engine.JIPFunctor) in com.ugos.jiprolog.extensions.database.TextAtomClausesDatabase overrides clauses(com.ugos.jiprolog.engine.JIPFunctor
+) in com.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/CurrentQueryHandle1.java:[29,33] unchecked method invocation: method
+unify in class com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Expression,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/CurrentQueryHandle1.java:[29,77] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/StrongCut1.java:[31,20] unchecked method invocation: method unify in
+class com.ugos.jiprolog.engine.Call1 is applied to given types
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/StrongCut1.java:[31,21] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/JIPConsoleView.java:[345,18] save(java.io.OutputStream,java.lang.String)
+ in java.util.Properties has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/TerminalTextArea.java:[96,41] unchecked call to addElement(E) as a membe
+r of the raw type java.util.Vector
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Load1.java:[94,26] unchecked call to put(K,V) as a member of the raw
+type java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Load1.java:[106,32] unchecked method invocation: method _assert in cl
+ass com.ugos.jiprolog.engine.Consult1 is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,com.ugos.jiprolog.engine.JIPEngine,java.lang.String,com.ugos.jiprolog.engine.ParserReader,java.
+util.Hashtable<java.lang.String,java.lang.String>,java.util.Vector<com.ugos.jiprolog.engine.PrologObject>,com.ugos.jiprolog.engine.WAM,boolean
+  found: com.ugos.jiprolog.engine.PrologObject,com.ugos.jiprolog.engine.JIPEngine,java.lang.String,<nulltype>,java.util.Hashtable,java.util.Vecto
+r<com.ugos.jiprolog.engine.PrologObject>,com.ugos.jiprolog.engine.WAM,boolean
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Load1.java:[106,66] unchecked conversion
+  required: java.util.Hashtable<java.lang.String,java.lang.String>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/PredicateProperties2.java:[104,33] unchecked method invocation: metho
+d unify in class com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.List,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/PredicateProperties2.java:[104,45] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/TraceDialog.java:[185,17] show() in java.awt.Dialog has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/KeySort2.java:[110,32] unchecked method invocation: method unify in c
+lass com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/KeySort2.java:[110,41] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/extensions/database/JDBCClausesDatabase.java:[437,28] clauses() in com.ugos.
+jiprolog.extensions.database.JDBCClausesDatabase overrides clauses() in com.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/extensions/database/JDBCClausesDatabase.java:[413,30] clauses(com.ugos.jipro
+log.engine.JIPFunctor) in com.ugos.jiprolog.extensions.database.JDBCClausesDatabase overrides clauses(com.ugos.jiprolog.engine.JIPFunctor) in com
+.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Findall4.java:[67,27] unchecked method invocation: method unify in cl
+ass com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Findall4.java:[67,39] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Encoding1.java:[36,43] unchecked method invocation: method unify in c
+lass com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.List,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Encoding1.java:[36,54] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Encoding1.java:[38,43] unchecked method invocation: method unify in c
+lass com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Atom,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Encoding1.java:[38,91] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/PString.java:[177,54] unchecked method invocation: method _unify in c
+lass com.ugos.jiprolog.engine.Variable is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PString,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/PString.java:[177,61] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/JIPConsole.java:[132,9] show() in java.awt.Window has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/extensions/database/PrologClausesDatabase.java:[88,28] clauses() in com.ugos
+.jiprolog.extensions.database.PrologClausesDatabase overrides clauses() in com.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/extensions/database/PrologClausesDatabase.java:[77,24] clauses(com.ugos.jipr
+olog.engine.JIPFunctor) in com.ugos.jiprolog.extensions.database.PrologClausesDatabase overrides clauses(com.ugos.jiprolog.engine.JIPFunctor) in
+com.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/InputDialog.java:[96,58] getFontMetrics(java.awt.Font) in java.awt.Toolkit has be
+en deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[51,49] unchecked method invocation: method unify in cl
+ass com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[51,56] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[51,85] unchecked method invocation: method unify in cl
+ass com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Expression,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[51,114] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[69,45] unchecked method invocation: method unify in cl
+ass com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[69,52] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[80,45] unchecked method invocation: method unify in cl
+ass com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[80,59] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[104,37] unchecked method invocation: method unify in c
+lass com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[104,51] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[168,79] unchecked method invocation: method unify in c
+lass com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.ConsCell,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Functor3.java:[169,81] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Ver1.java:[28,33] unchecked method invocation: method unify in class
+com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Atom,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Ver1.java:[28,75] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Length2.java:[51,79] unchecked method invocation: method unify in cla
+ss com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Length2.java:[51,93] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Length2.java:[55,93] unchecked method invocation: method unify in cla
+ss com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Length2.java:[55,107] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Length2.java:[60,65] unchecked method invocation: method unify in cla
+ss com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Length2.java:[60,79] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Length2.java:[71,37] unchecked method invocation: method unify in cla
+ss com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.List,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Length2.java:[71,44] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Is2.java:[28,33] unchecked method invocation: method unify in class c
+om.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Expression,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Is2.java:[28,67] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/TextMessageDialog.java:[79,58] getFontMetrics(java.awt.Font) in java.awt.Toolkit
+has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/TextMessageDialog.java:[92,20] action(java.awt.Event,java.lang.Object) in java.aw
+t.Component has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/TextMessageDialog.java:[100,21] action(java.awt.Event,java.lang.Object) in java.a
+wt.Component has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/extensions/reflect/JIPCreateObject3.java:[99,35] unchecked call to addElemen
+t(E) as a member of the raw type java.util.Vector
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/extensions/reflect/JIPCreateObject3.java:[131,57] unchecked call to getConst
+ructor(java.lang.Class<?>...) as a member of the raw type java.lang.Class
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/extensions/database/TextClausesDatabase.java:[123,28] clauses() in com.ugos.
+jiprolog.extensions.database.TextClausesDatabase overrides clauses() in com.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/extensions/database/TextClausesDatabase.java:[117,24] clauses(com.ugos.jipro
+log.engine.JIPFunctor) in com.ugos.jiprolog.extensions.database.TextClausesDatabase overrides clauses(com.ugos.jiprolog.engine.JIPFunctor) in com
+.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[48,30] show() in java.awt.Window has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[61,12] show() in java.awt.Window has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[66,43] show() in java.awt.Window has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[71,37] unchecked call to insertElementAt(E,int) as a mem
+ber of the raw type java.util.Vector
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[80,32] unchecked call to addElement(E) as a member of th
+e raw type java.util.Vector
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[247,21] show() in java.awt.Window has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[302,48] show() in java.awt.Window has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[345,17] show() in java.awt.Dialog has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/EditFrame.java:[413,17] show() in java.awt.Dialog has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Retract1.java:[53,36] unchecked method invocation: method unify in cl
+ass com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Clause,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Retract1.java:[53,54] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Retract1.java:[96,40] unchecked method invocation: method unify in cl
+ass com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Clause,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Retract1.java:[96,56] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/Dialogs.java:[26,15] show() in java.awt.Dialog has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/Dialogs.java:[34,12] show() in java.awt.Dialog has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/Dialogs.java:[43,17] show() in java.awt.Dialog has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/Dialogs.java:[55,18] show() in java.awt.Dialog has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/Dialogs.java:[67,16] show() in java.awt.Dialog has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/JIPConsoleApplet.java:[84,9] show() in java.awt.Component has been depre
+cated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Findall3.java:[58,27] unchecked method invocation: method unify in cl
+ass com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.List,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Findall3.java:[58,39] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Sort4.java:[141,32] unchecked method invocation: method unify in clas
+s com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Sort4.java:[141,41] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/SplashWnd.java:[68,17] show() in java.awt.Window has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/gui/SplashWnd.java:[93,14] show() in java.awt.Window has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/YesNoDialog.java:[80,58] getFontMetrics(java.awt.Font) in java.awt.Toolkit has be
+en deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/BagOf3.java:[41,27] unchecked method invocation: method unify in clas
+s com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/BagOf3.java:[41,66] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/BagOf3.java:[43,30] unchecked call to push(E) as a member of the raw
+type java.util.Stack
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/BagOf3.java:[66,25] unchecked method invocation: method unify in clas
+s com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.List,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/BagOf3.java:[66,35] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/BagOf3.java:[81,31] unchecked call to addElement(E) as a member of th
+e raw type java.util.Vector
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/BagOf3.java:[84,35] unchecked call to addElement(E) as a member of th
+e raw type java.util.Vector
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Copyright1.java:[28,33] unchecked method invocation: method unify in
+class com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Atom,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Copyright1.java:[28,81] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Pid1.java:[19,80] unchecked call to getMethod(java.lang.String,java.l
+ang.Class<?>...) as a member of the raw type java.lang.Class
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Pid1.java:[22,80] unchecked call to getDeclaredMethod(java.lang.Strin
+g,java.lang.Class<?>...) as a member of the raw type java.lang.Class
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/PrologParser.java:[1139,31] unchecked call to push(E) as a member of
+the raw type java.util.Stack
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/PrologParser.java:[1147,35] unchecked call to push(E) as a member of
+the raw type java.util.Stack
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/PrologParser.java:[1149,35] unchecked call to push(E) as a member of
+the raw type java.util.Stack
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Discontiguous1.java:[61,51] unchecked call to addElement(E) as a memb
+er of the raw type java.util.Vector
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Discontiguous1.java:[66,51] unchecked call to addElement(E) as a memb
+er of the raw type java.util.Vector
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/extensions/reflect/JIPInvoke4.java:[112,35] unchecked call to addElement(E)
+as a member of the raw type java.util.Vector
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/extensions/reflect/JIPInvoke4.java:[173,44] unchecked call to getMethod(java
+.lang.String,java.lang.Class<?>...) as a member of the raw type java.lang.Class
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/PromptDialog.java:[83,58] getFontMetrics(java.awt.Font) in java.awt.Toolkit has b
+een deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/PromptDialog.java:[139,20] handleEvent(java.awt.Event) in java.awt.Component has
+been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/PromptDialog.java:[157,21] handleEvent(java.awt.Event) in java.awt.Component has
+been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/PromptDialog.java:[170,21] handleEvent(java.awt.Event) in java.awt.Component has
+been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/PromptDialog.java:[175,21] handleEvent(java.awt.Event) in java.awt.Component has
+been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/PromptDialog.java:[180,21] handleEvent(java.awt.Event) in java.awt.Component has
+been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/PromptDialog.java:[185,21] handleEvent(java.awt.Event) in java.awt.Component has
+been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/MessageDialog.java:[77,58] getFontMetrics(java.awt.Font) in java.awt.Toolkit has
+been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/MessageDialog.java:[107,20] action(java.awt.Event,java.lang.Object) in java.awt.C
+omponent has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/awt/MessageDialog.java:[115,21] action(java.awt.Event,java.lang.Object) in java.awt.C
+omponent has been deprecated
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Univ2.java:[133,26] unchecked method invocation: method unify in clas
+s com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Univ2.java:[133,33] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/ZeroArityDefaultClausesDatabase.java:[24,1] clauses() in com.ugos.jip
+rolog.engine.DefaultClausesDatabase overrides clauses() in com.ugos.jiprolog.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/ZeroArityDefaultClausesDatabase.java:[24,1] clauses(com.ugos.jiprolog
+.engine.JIPFunctor) in com.ugos.jiprolog.engine.DefaultClausesDatabase overrides clauses(com.ugos.jiprolog.engine.JIPFunctor) in com.ugos.jiprolo
+g.engine.JIPClausesDatabase
+  return type requires unchecked conversion from java.util.Enumeration to java.util.Enumeration<com.ugos.jiprolog.engine.JIPClause>
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Ver4.java:[29,42] unchecked method invocation: method unify in class
+com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Expression,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Ver4.java:[29,85] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Ver4.java:[30,42] unchecked method invocation: method unify in class
+com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Expression,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Ver4.java:[30,85] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Ver4.java:[31,42] unchecked method invocation: method unify in class
+com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Expression,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Ver4.java:[31,85] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Ver4.java:[32,42] unchecked method invocation: method unify in class
+com.ugos.jiprolog.engine.PrologObject is applied to given types
+  required: com.ugos.jiprolog.engine.PrologObject,java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found: com.ugos.jiprolog.engine.Expression,java.util.Hashtable
+[WARNING] /D:/jiuc-prolog/src/main/java/com/ugos/jiprolog/engine/Ver4.java:[32,88] unchecked conversion
+  required: java.util.Hashtable<com.ugos.jiprolog.engine.Variable,com.ugos.jiprolog.engine.Variable>
+  found:    java.util.Hashtable
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jiprolog ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 6 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ jiprolog ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to D:\jiuc-prolog\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jiprolog ---
+[INFO] Surefire report directory: D:\jiuc-prolog\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.ugos.jiprolog.example.AsynchronousQueryTest
+This is printed only once at the AsynchronousQueryTest beginning
+open
+solution:
+father(james,michael)
+Father = james
+Child = michael
+more
+solution:
+father(james,william)
+Father = james
+Child = william
+more
+solution:
+father(james,linda)
+Father = james
+Child = linda
+more
+solution:
+father(john,elizabeth)
+Father = john
+Child = elizabeth
+more
+solution:
+father(john,maria)
+Father = john
+Child = maria
+more
+solution:
+father(john,robert)
+Father = john
+Child = robert
+more
+solution:
+father(michael,raghav)
+Father = michael
+Child = raghav
+more
+solution:
+father(michael,susan)
+Father = michael
+Child = susan
+more
+solution:
+father(raghav,charles)
+Father = raghav
+Child = charles
+more
+end
+close
+######### PROGRAM FINISHED ###############
+AsynchronousQueryTest - last thing printed
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.872 sec
+Running com.ugos.jiprolog.example.SynchronousQueryTest
+This is printed only once at the SynchronousQueryTest beginning
+?- father(Father, Child). -->father(_478,_479)
+jip ?- father(Father, Child). -->father(_478,_479)
+
+next solution: father(james,michael)
+Father = james
+Child = michael
+next solution: father(james,william)
+Father = james
+Child = william
+next solution: father(james,linda)
+Father = james
+Child = linda
+next solution: father(john,elizabeth)
+Father = john
+Child = elizabeth
+next solution: father(john,maria)
+Father = john
+Child = maria
+next solution: father(john,robert)
+Father = john
+Child = robert
+next solution: father(michael,raghav)
+Father = michael
+Child = raghav
+next solution: father(michael,susan)
+Father = michael
+Child = susan
+next solution: father(raghav,charles)
+Father = raghav
+Child = charles
+######### PROGRAM FINISHED ###############
+SynchronousQueryTest - last thing printed
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-jar-plugin:3.3.0:jar (default-jar) @ jiprolog ---
+[INFO] Building jar: D:\jiuc-prolog\target\jiprolog-4.1.7.6.jar
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ jiprolog ---
+[INFO] Installing D:\jiuc-prolog\target\jiprolog-4.1.7.6.jar to C:\Users\gozuw10\.m2\repository\com\ugos\jiprolog\4.1.7.6\jiprolog-4.1
+.7.6.jar
+[INFO] Installing D:\jiuc-prolog\pom.xml to C:\Users\gozuw10\.m2\repository\com\ugos\jiprolog\4.1.7.6\jiprolog-4.1.7.6.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.715 s
+[INFO] Finished at: 2025-09-16T14:30:47+02:00
+[INFO] Final Memory: 24M/606M
+[INFO] ------------------------------------------------------------------------
+D:\jiuc-prolog>
+
+D:\jiuc-prolog>mvn dependency:analyze
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Ji Prolog 4.1.7.6
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] >>> maven-dependency-plugin:2.8:analyze (default-cli) > test-compile @ jiprolog >>>
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jiprolog ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 31 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ jiprolog ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jiprolog ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 6 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ jiprolog ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] <<< maven-dependency-plugin:2.8:analyze (default-cli) < test-compile @ jiprolog <<<
+[INFO]
+[INFO] --- maven-dependency-plugin:2.8:analyze (default-cli) @ jiprolog ---
+[INFO] No dependency problems found
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.458 s
+[INFO] Finished at: 2025-09-16T14:47:37+02:00
+[INFO] Final Memory: 16M/726M
+[INFO] ------------------------------------------------------------------------
+D:\jiuc-prolog>mvn dependency:tree
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Ji Prolog 4.1.7.6
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ jiprolog ---
+[INFO] com.ugos:jiprolog:jar:4.1.7.6
+[INFO] \- junit:junit:jar:4.11:test
+[INFO]    \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.274 s
+[INFO] Finished at: 2025-09-16T14:47:50+02:00
+[INFO] Final Memory: 22M/726M
+[INFO] ------------------------------------------------------------------------
+D:\jiuc-prolog>
