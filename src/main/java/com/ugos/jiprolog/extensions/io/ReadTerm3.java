@@ -222,6 +222,17 @@ public final class ReadTerm3 extends JIPXCall
                     term = JIPAtom.create("end_of_file");
                     streamInfo.setEndOfStream("past");
                 }
+				
+                if(variable_names != null)
+                {
+                	if(!variable_names.getParams().getNth(1).unify(JIPList.NIL, varsTbl))
+                	{
+                        if(bUserStream)
+                            getJIPEngine().notifyEvent(JIPEvent.ID_USERINPUTDONE, getPredicate(), getQueryHandle());
+
+                		return false;
+                	}
+                }
             }
         }
         catch(JIPRuntimeException ex)

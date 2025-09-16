@@ -27,6 +27,7 @@ import java.awt.Rectangle;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
 import java.util.Date;
@@ -121,7 +122,7 @@ public class JIPConsoleController implements IJIPConsoleController, JIPEventList
         }
 
         m_prolog.setUserOutputStream(m_outs);
-        m_prolog.setUserInputStream(m_consoleView.getInputStream());
+		m_prolog.setUserInputStream(new InputStreamReader(m_consoleView.getInputStream()));
 
         // Add EventListener
         m_prolog.addEventListener(this);

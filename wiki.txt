@@ -1,0 +1,51 @@
+Home
+ 
+JIProlog edited this page on Sep 3, 2015 · 21 revisions
+Welcome to the JIProlog development wiki!
+
+JIProlog is a Prolog interpreter, pure Java 100%, cross-platform and Open Source.
+
+JIProlog offers a high degree of compliance with official and de facto Prolog standards. It also supports built-in predicates and other features common to major Prolog systems.
+
+JIProlog enhances the Java platform by adding the power of Prolog language and extends Prolog by adding the Java framework.
+
+JIProlog integrates Prolog and Java languages in a very fashinating way. It allows calling Prolog predicates from Java without dealing with native code (JNI) and allows invoking Java methods from Prolog as they were predicates.
+
+JIProlog supplies a complete API to link Prolog and Java languages from both sides. Such API is composed by three parts:
+
+Java calls Prolog;
+Prolog calls Java;
+Prolog links JDBC databases.
+By design, JIProlog is compliant with Web 3.0 and the mobile world.
+
+The home of JIProlog is: http://www.jiprolog.com
+
+JIProlog is open source and it is release under AGPLv 3.0 or under commercial license.
+
+The source code is available on GitHub: https://github.com/jiprolog/
+
+See also the JIProlog Forum
+
+Prolog resources and tutorials
+comp.lang.prolog FAQ
+Prolog books
+JIProlog Development
+JIProlog IDE
+JIProlog Console
+JIProlog SDK
+References
+3APL- An Abstract Agent Programming Language: a programming language for implementing cognitive agents. - [http://www.cs.uu.nl/3apl]
+
+Caffeine: a system for the dynamic analysis of Java programs. Caffeine is made of a Prolog engine that analyzes the execution of a Java program on a remote virtual machine. - [http://www.yanngael.gueheneuc.net/Work/Research/Caffeine/Introduction/]
+
+No Java Without Caffeine: a tool for Dynamic Analysis of Java Programs - [http://www.emn.fr/jussien/publications/gueheneuc-RR0207.pdf]
+
+Du langage à l'image. Génération automatique de rèbus - [http://users.info.unicaen.fr/~slegloan/rebus/rapport_rebus.pdf]
+
+Adding Functional Programming into the Holo Language - [www.informatik.uni-kiel.de/~wflp2001/proceedings/papers/paper25.ps.gz]
+
+JIProlog: un interprete Prolog in java - [http://online.infomedia.it/riviste/dev/94/sommario.htm]
+
+Logic Programming - [http://www.arch.usyd.edu.au/~g_smith/logicProg/talk.pdf]
+
+Towards Effective Parallel Logic Programming - [ftp2.cnpq.br/pub/protem/workshop2001/nsf/artigos/vitor_santos_costa_clopn.ps]

@@ -152,11 +152,11 @@ class WAM
     boolean hasMoreChoicePoints()
         throws JIPIsRunningException
     {
-        // se è running torna exception
+        // se ? running torna exception
         if(isRunning())
             throw new JIPIsRunningException();
 
-        // se è stato chiusa con closeQuery o non è mai partita lancia eccezione
+        // se  stato chiusa con closeQuery o non  mai partita lancia eccezione
         if(isClosed() || isNeverRun())
             throw new JIPQueryClosedException();;
 
@@ -197,19 +197,19 @@ class WAM
         return m_curNode != null;
     }
 
-    // la WAM è stata chiusa con closeQuery o dopo errore
+    // la WAM  stata chiusa con closeQuery o dopo errore
     final boolean isClosed()
     {
         return m_bClosed;
     }
 
-    //  la query non è ancora partita
+    //  la query non  ancora partita
     final boolean isNeverRun()
     {
         return m_startNode == null && !m_bClosed;
     }
 
-    // la WAM è in attesa di ricevere nextSolution o closeQuery
+    // la WAM  in attesa di ricevere nextSolution o closeQuery
     final boolean isWaiting()
     {
         return !isNeverRun() && !isRunning() && !isClosed();
@@ -235,7 +235,7 @@ class WAM
         }
         else
         {
-            // qui si entra solo se il m_curnode è startNode ed è proprio il cut (?)
+            // qui si entra solo se il m_curnode  startNode ed  proprio il cut (?)
             m_curNode.m_backtrack = m_rootNode;
         }
     }
@@ -248,7 +248,7 @@ class WAM
         }
         else
         {
-            // qui si entra solo se il m_curnode è startNode ed è proprio il cut (?)
+            // qui si entra solo se il m_curnode  startNode ed  proprio il cut (?)
             m_curNode.m_backtrack = m_rootNode;
         }
     }
@@ -271,7 +271,7 @@ class WAM
         }
         else
         {
-            // qui si entra solo se il m_curnode è startNode ed è proprio il cut (?)
+            // qui si entra solo se il m_curnode  startNode ed  proprio il cut (?)
             m_curNode.m_previous.m_backtrack = m_rootNode;
         }
     }
@@ -290,7 +290,7 @@ class WAM
                 do
                 {
                     // Azzera le variabili eventualmente istanziate al livello corrente
-                    // poiché in hasMoreElements viene riprovato il match
+                    // poich in hasMoreElements viene riprovato il match
                     curNode.clearVariables();
 
                     // call precedente
@@ -328,7 +328,7 @@ class WAM
             else if(curNode.m_ruleEnum.hasMoreElements())
             {
                 // se la prossima regola unificante fallisce nel corpo qui non
-                // è possibile accorgersene (il risultato cioè non è deterministico)
+                //  possibile accorgersene (il risultato cio non  deterministico)
                 // quindi hasMoreElement ritorna true
                 // occorrerebbe eseguire un look-haed per verificare se la prossima
                 // regola unifica
@@ -363,7 +363,7 @@ class WAM
 	                bUnify = false;
 
 	                // genera le clausole che unificano
-	                // se le clausole sono state già generate siamo in backtracking
+	                // se le clausole sono state gi generate siamo in backtracking
 	                // altrimenti ne genera di nuove
 	                if(curNode.m_ruleEnum == null)
 	                {
@@ -376,8 +376,8 @@ class WAM
 //	                    	ex.printStackTrace();
 //	                    	ex.printPrologStackTrace();
 
-	                        // invia il warning se il predicato non è definito
-	                        // e non è dynamic
+	                        // invia il warning se il predicato non  definito
+	                        // e non  dynamic
 	                        // in questo caso la enumeration deve essere vuota
 	                        if(!m_globalDB.isDynamic(((Functor)ex.getCulprit()).getName()))
 	                        {
@@ -533,7 +533,7 @@ class WAM
                 final Clause cla = ((Clause)rule.m_dbCons);
                 if(cla != null)
                 {
-                    ex.m_strFileName = cla.getFileName(); // nel caso di built-in non è valorizzato
+                    ex.m_strFileName = cla.getFileName(); // nel caso di built-in non  valorizzato
                     ex.m_nLineNumber = cla.getLine();
                     ex.m_nPosition = cla.getPosition();
                 }
@@ -558,7 +558,7 @@ class WAM
 //                final Clause cla = ((Clause)rule.m_dbCons);
 //                if(cla != null)
 //                {
-//                    ex.m_strFileName = cla.getFileName();  // nel caso di built-in non è valorizzato
+//                    ex.m_strFileName = cla.getFileName();  // nel caso di built-in non  valorizzato
 //                    ex.m_nLineNumber = cla.getLineNumber();
 //                    ex.m_nPosition   = cla.getPosition();
 //                }

@@ -12,49 +12,49 @@ JIProlog supplies also the predicate compile/1 and load/1 (and the methods JIPEn
 Using one those functions you can produce compiled .pl/.pro files (said .jip) and put then in yor .jar.
 
 Q. How to solve invalid stream header ?
-     # java -jar target\jiprolog-4.1.jar <CR>
-     java.io.StreamCorruptedException: invalid stream header: 2F2A0D0A        
-     at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:864)        
-     at java.io.ObjectInputStream.<init>(ObjectInputStream.java:358)        
-     at com.ugos.jiprolog.engine.GlobalDB.loadKernel(GlobalDB.java:718)       
-     at com.ugos.jiprolog.engine.GlobalDB.<init>(GlobalDB.java:90)        
-     at com.ugos.jiprolog.engine.JIPEngine.<init>(JIPEngine.java:131)        
-     at com.ugos.jiprolog.gui.JIPConsoleController.<init>(JIPConsoleController.java:92)        
-     at com.ugos.jiprolog.gui.JIPConsole.<init>(JIPConsole.java:127)        
-     at com.ugos.jiprolog.gui.JIPConsole.main(JIPConsole.java:66)Exception in thread "main" com.ugos.jiprolog.engine.JIPRuntimeException: error(system_error('\'Unable to load Kernel: java.io.StreamCorruptedException: invalidstream header: 2F2A0D0A\''),context(undefined,file(undefined,0)))        
-     at com.ugos.jiprolog.engine.GlobalDB.loadKernel(GlobalDB.java:757)        
-     at com.ugos.jiprolog.engine.GlobalDB.<init>(GlobalDB.java:90)        
-     at com.ugos.jiprolog.engine.JIPEngine.<init>(JIPEngine.java:131)        
-     at com.ugos.jiprolog.gui.JIPConsoleController.<init>(JIPConsoleController.java:92)        
-     at com.ugos.jiprolog.gui.JIPConsole.<init>(JIPConsole.java:127)        
+     # java -jar target\jiprolog-4.1.7.6.jar <CR>
+     java.io.StreamCorruptedException: invalid stream header: 2F2A0D0A        
+     at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:864)        
+     at java.io.ObjectInputStream.<init>(ObjectInputStream.java:358)        
+     at com.ugos.jiprolog.engine.GlobalDB.loadKernel(GlobalDB.java:718)       
+     at com.ugos.jiprolog.engine.GlobalDB.<init>(GlobalDB.java:90)        
+     at com.ugos.jiprolog.engine.JIPEngine.<init>(JIPEngine.java:131)        
+     at com.ugos.jiprolog.gui.JIPConsoleController.<init>(JIPConsoleController.java:92)        
+     at com.ugos.jiprolog.gui.JIPConsole.<init>(JIPConsole.java:127)        
+     at com.ugos.jiprolog.gui.JIPConsole.main(JIPConsole.java:66)Exception in thread "main" com.ugos.jiprolog.engine.JIPRuntimeException: error(system_error('\'Unable to load Kernel: java.io.StreamCorruptedException: invalidstream header: 2F2A0D0A\''),context(undefined,file(undefined,0)))        
+     at com.ugos.jiprolog.engine.GlobalDB.loadKernel(GlobalDB.java:757)        
+     at com.ugos.jiprolog.engine.GlobalDB.<init>(GlobalDB.java:90)        
+     at com.ugos.jiprolog.engine.JIPEngine.<init>(JIPEngine.java:131)        
+     at com.ugos.jiprolog.gui.JIPConsoleController.<init>(JIPConsoleController.java:92)        
+     at com.ugos.jiprolog.gui.JIPConsole.<init>(JIPConsole.java:127)        
      at com.ugos.jiprolog.gui.JIPConsole.main(JIPConsole.java:66)
 
 A.To compile the sources .pl, .pro or txt, must start in debug mode, this load the source kernel jipkernel.txt, using -debug option
 in command line
-  ### Steps in ide:
-  a)  java -jar /folder_target/jiprolog-4.1.jar -debug 
-  b)  File->Open->compile.pl <CR> 
-  c)  File->Consult <CR>   
-  d)  Type the query: compile. <CR> in console.  
+� ### Steps in ide:
+  a)� java -jar /folder_target/jiprolog-4.1.7.6.jar -debug�
+  b)� File->Open->compile.pl�<CR> 
+  c)� File->Consult�<CR>� �
+  d)� Type the query: compile. <CR> in console.��
   
   %%% with maven use this compile.pl 
   %%% compile file start %%%
-  compile:-    
-  write('sources .pl or .txt for compile are in /src/main/resources/com/ugos/jiprolog/resources folder'),nl, write('compilation start'),
-  nl, 
-  compile('src/main/resources/com/ugos/jiprolog/resources/jipkernel.txt'), 
+  compile:-��� 
+  write('sources .pl or .txt for compile are in /src/main/resources/com/ugos/jiprolog/resources folder'),nl,�write('compilation start'),
+  nl,�
+  compile('src/main/resources/com/ugos/jiprolog/resources/jipkernel.txt'),�
   compile('src/main/resources/com/ugos/jiprolog/resources/flags.pl'),
-  compile('src/main/resources/com/ugos/jiprolog/resources/list.pl'), 
-  compile('src/main/resources/com/ugos/jiprolog/resources/sys.pl'), 
-  compile('src/main/resources/com/ugos/jiprolog/resources/xsets.pl'), 
-  compile('src/main/resources/com/ugos/jiprolog/resources/setof.pl'), 
-  compile('src/main/resources/com/ugos/jiprolog/resources/xio.pl'), 
-  compile('src/main/resources/com/ugos/jiprolog/resources/xdb.pl'), 
-  compile('src/main/resources/com/ugos/jiprolog/resources/xexception.pl'), 
-  compile('src/main/resources/com/ugos/jiprolog/resources/xreflect.pl'), 
-  compile('src/main/resources/com/ugos/jiprolog/resources/xsystem.pl'), 
-  compile('src/main/resources/com/ugos/jiprolog/resources/xterm.pl'), 
-  compile('src/main/resources/com/ugos/jiprolog/resources/xxml.pl'), 
+  compile('src/main/resources/com/ugos/jiprolog/resources/list.pl'),�
+  compile('src/main/resources/com/ugos/jiprolog/resources/sys.pl'),�
+  compile('src/main/resources/com/ugos/jiprolog/resources/xsets.pl'),�
+  compile('src/main/resources/com/ugos/jiprolog/resources/setof.pl'),�
+  compile('src/main/resources/com/ugos/jiprolog/resources/xio.pl'),�
+  compile('src/main/resources/com/ugos/jiprolog/resources/xdb.pl'),�
+  compile('src/main/resources/com/ugos/jiprolog/resources/xexception.pl'),�
+  compile('src/main/resources/com/ugos/jiprolog/resources/xreflect.pl'),�
+  compile('src/main/resources/com/ugos/jiprolog/resources/xsystem.pl'),�
+  compile('src/main/resources/com/ugos/jiprolog/resources/xterm.pl'),�
+  compile('src/main/resources/com/ugos/jiprolog/resources/xxml.pl'),�
   write('compilation done'), nl.
 %:- compile.
 %%% compile.pl file end. %%%
@@ -65,8 +65,8 @@ A. Steps
           a) Install java, maven, 
           b) Get the sources !
           c) Must have/set JAVA_HOME and M2_HOME
-          d) Verify in PATH env variable if have $JAVA_HOME/bin and $M2_HOME/bin, for windows %JAVA_HOME%\bin and  %M2_HOME%\bin
-          c) mvn clean install
+ � � � �  d) Verify in PATH env variable if have $JAVA_HOME/bin and $M2_HOME/bin, for windows %JAVA_HOME%\bin and  %M2_HOME%\bin
+ � � � �  c) mvn clean install
 
 Q. Running application (with above .pl, .txt sources compiled)
 A.      java -jar jiprolog-X.1.jar 
